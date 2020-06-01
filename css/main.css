@@ -1,0 +1,55 @@
+body{
+    text-align: center;
+}
+
+h1{
+    background-color: black;
+    color: white;
+    padding: 2px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.cell{
+    width: 50px;
+    height:50px;
+    color: gray;
+    
+}
+.cell-false{
+    background-color: gray;
+}
+.cell:hover{
+    cursor: pointer;
+}
+
+table{
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.stopwatch{
+    left: 50px;
+}
+
+.imoge{
+    margin: 0 auto;
+    width: 15px;
+}
+.imoge:hover{
+    cursor: pointer;
+}
+
+span{
+    display: none;
+}
+button{
+    margin: auto;
+    margin-top: 10px;
+}
+
+.life{
+    display: inline;
+    margin: 0 auto;
+    margin-right: 20px;
+}

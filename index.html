@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mine Sweeper</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body onload="init(4,2)">
+    <H1>Mine Sweeper</H1>
+    <div class="imoge" onclick="init(gLevel.size,gLevel.mines)"></div>
+    <div class="stopwatch"></div>
+    <div class="life life-1"></div>
+    <div class="life life-2"></div>
+    <div class="life life-3"></div>
+    <button onclick="init(4,2)">Beginner</button>
+    <button onclick="init(8,12)">Medium</button>
+    <button onclick="init(12,30)">Expert</button>
+
+    <div class="board-container">
+        <table border="1" cellpadding="3">
+            <tbody>
+
+            </tbody>
+        </table>
+    </div>
+
+
+
+
+
+    <script src="js/main.js"></script>
+    <script src="js/util.js"></script>
+
+</body>
+
+</html>
